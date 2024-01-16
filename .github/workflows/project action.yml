@@ -26,7 +26,7 @@ jobs:
       
           - name: Run tests
 
-            run: python api_project/manage.py test beer_app.tests
+            run: python api_project/manage.py test api_app.tests
 
 #- name: Run tests
             #run: python api_project/manage.py test api_app.tests  that works for me 
